@@ -1,0 +1,37 @@
+10/1/2023
+
+javascript alert:
+alert("hello") or window.alert("hello") is used to show pop up on the screen.
+
+Data Types:
+keyword - datatypes - 
+alert() ->  show pop up on the screen
+typeof() -> use to tell type of the data type
+true -> boolean
+123 -> numbers
+"hello" -> string
+
+javascript variables - 
+var myname = rishav;
+myname = anush;
+var myname = prompt("my name is : " + myname); menas browser will ask name and save in myname
+var level = 1;
+level = 2;
+level = 3;
+alert(level); it will show you the current level.
+
+naming convention for javascript:
+we can use letter - number - _ - $
+it should shart with alphabet, _ and $ symbol
+
+string concatination
+var myname = "rishav";
+var nyBname = "anush";
+alert(myname +" "+ nyBname); it will say rishav anush
+
+string length and retriving number of characters:
+var tweet = prompt("compose your tweet here : ");
+alert("You have written "+tweet.length+" and remaning with "+ (140-tweet.length) + " characters.")
+
+Slicing and extracting parts of string:
+
