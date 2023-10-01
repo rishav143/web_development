@@ -34,4 +34,5 @@ var tweet = prompt("compose your tweet here : ");
 alert("You have written "+tweet.length+" and remaning with "+ (140-tweet.length) + " characters.")
 
 Slicing and extracting parts of string:
-
+slice() function is used to slice the strings. for eg 
+alert(prompt("compose your tweet here : ").slice(0,140)); it will take only 140 characters from the strings.
