@@ -52,3 +52,19 @@ x=x+1 =  x+=1
 var x = prompt("Enter number : ");
 alert(4+3*x++) # it will compute the expression then change the value of x later
 
+Function part 1 :
+function getMilk() { # define funciton here
+    alert("move right");
+    alert("move left");
+}
+getMilk();
+
+function part 2: 
+function getMilk(money) { # define funciton here
+    alert("move right");
+    var numberOfBottles = Math.floor(money / 1.5);
+    alert("Buy " + numberOfBottles + " .")
+    alert("move left");
+}
+getMilk(5);
+
