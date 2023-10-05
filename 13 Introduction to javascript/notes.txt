@@ -68,3 +68,23 @@ function getMilk(money) { # define funciton here
 }
 getMilk(5);
 
+date: 10-05-2023
+function part 3 output and return: 
+function getMilk(money, costPerBottle) {
+    console.log("move right");
+    console.log("move left");
+    console.log("Buy " + numOfBottles(money, costPerBottle))
+    console.log("move left");
+    console.log("move right");
+    return returnChange(money, costPerBottle);
+}
+function numOfBottles(startingMoney, costPerBottle) {
+    var bottles = Math.floor(startingMoney / costPerBottle);
+    return bottles;
+}
+function returnChange(startingMoney, costPerBottle) {
+    var change = startingMoney % costPerBottle;
+    return change;
+}
+var change = getMilk(5, 3);
+console.log(change);
