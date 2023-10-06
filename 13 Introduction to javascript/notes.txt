@@ -96,3 +96,64 @@ prompt("Enter your name : ");
 prompt("Enter your love name : ");
 loveScore = Math.floor(Math.random() * 100);
 alert("Your Love score match " + loveScore + "%.");
+
+Control Statement if-else :
+prompt("Enter your name : ");
+prompt("Enter your love name : ");
+var loveScore = Math.floor(Math.random() * 100);
+loveScore = 70
+if(loveScore > 70) {
+    alert("Lovely '_' " + loveScore + "%.");
+} else {
+    alert("Normal '-' " + loveScore + "%.");
+}
+
+Comparators and Equality :
+=== is equal to
+!== is not equal to 
+> greater than
+< less than
+>= greater than equal to
+<= less than equal to 
+var a = 1;
+var b = "1";
+if(a == b) {  //if a === b then Yes
+    alert("Yes");
+} else {
+    alert("No");
+}
+# ans is Yes
+
+Combining Comprator :
+&&
+||
+!
+prompt("Enter your name : ");
+prompt("Enter Love name : ");
+var loveScore = Math.floor(Math.random() * 100);
+if(loveScore > 70) {
+    alert("couples " + loveScore + "%.");
+}
+if(loveScore > 30 && loveScore <= 70){
+    alert("ultra lucky " + loveScore + "%.");
+}   
+else {
+    alert("unlucky " + loveScore + "%.");
+}
+
+leap year challenge :
+function isLeap(year) {
+    if(year % 4 === 0) {
+        if(year % 100 === 0) {
+            if(year % 400 === 0) {
+                return "Leap year";
+            } else {
+                return "Not leap year."
+            }
+        } else {
+            return "Leap year.";
+        }
+    } else {
+        return "Not leap year."
+    }
+}
