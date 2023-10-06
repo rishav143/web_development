@@ -89,3 +89,10 @@ function returnChange(startingMoney, costPerBottle) {
 var change = getMilk(5, 3);
 console.log(change);
 Here we used the return keyword.
+
+date : 10-06-2023
+Random generator:
+prompt("Enter your name : ");
+prompt("Enter your love name : ");
+loveScore = Math.floor(Math.random() * 100);
+alert("Your Love score match " + loveScore + "%.");
