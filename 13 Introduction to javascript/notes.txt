@@ -157,3 +157,15 @@ function isLeap(year) {
         return "Not leap year."
     }
 }
+
+date: 10-07-2023
+Collections working with array:
+var namelist = ["rishav", "anush", "santosh", "karnail"];
+var name = prompt("Enter your name : ");
+if(namelist.includes(name)) {
+    alert("You are welcome.");
+} else {
+    alert("Sorry, next time.")
+}
+
+Adding element and adding Intermediate technique:
