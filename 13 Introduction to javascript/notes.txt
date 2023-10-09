@@ -169,3 +169,41 @@ if(namelist.includes(name)) {
 }
 
 Adding element and adding Intermediate technique:
+
+date: 09-10-2023
+while loop:
+var output = [];
+var i = 1;
+function fizzbuzz() {
+
+    while(i <= 100) {
+        
+        if(i % 3 == 0 && i % 5 == 0) {
+            output.push("fizzbuzz");
+        } else {
+            if(i % 3 == 0 || i % 5 == 0) {
+                if(i % 3 == 0) {
+                    output.push("fizz");
+                } 
+                if(i % 5 == 0) {
+                    output.push("buzz");
+                }
+            }
+            else {
+                output.push(i);
+            }
+        }
+        
+        i++;
+    }
+    console.log(output);
+}
+fizzbuzz();
+
+Control Statement :
+for loop :
+for(var i = 0; i < n; i++){
+    console.log(i);
+} 
+$ this code will print i upto n times.
+
