@@ -11,7 +11,27 @@ date:10-14-2003
 Introduction to DOM :
 our brower save the document of html file where
 inside ducument Html is there
-inside html various child(elements) are there which are ancestor and siblings for other tag.
+inside html various child(elements) are there, which are ancestor and siblings for other tag.
 - we can manipulate the objects of the document 
 - every object have property(characterstics) and method(what object can do)
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+heading.innerHTML = "Good bye"; 
+//heading change to good bye
+var list = document.firstElementChild.lastElementChild.lastElementChild.lastElementChild;
+list.innerHTML = "rishav";
+//last list element changes to rishav
 
+Selecting HTML element by javascipt :
+document.querySelector("li a").style.color = "red";
+document.querySelectorAll("item")[2].style.color = "green"; // change third element to green
+//it will change google color to red
+document.getElementsByTagName("li")[1].style.color = "red";
+//it will create array of tag element of li and we can access them using index value
+document.getElementsByTagName("button")[0].style.color = "green";
+//it will change the button to green
+document.getElementById("btn").style.color = "blue";
+//in id we can select only one element which is unique, in this case button changes to blue
+
+manipulating and changing the style of element by javascipt :
+document.querySelector("#btn").style.backgroundColor = "yellow";
+//we can manipulate the javascipt element same as CSS using javascipt version.
