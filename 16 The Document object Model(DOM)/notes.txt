@@ -1,0 +1,17 @@
+date: 10-10-2023
+Adding javascipt to website :
+we have three types of javascipt file used in html :
+1. onload - used inside element tag
+2. inline - used inbetween body 
+3. external - used in different file
+in external we prefer to specify javascipt doc just before the body
+tag because to avoid no element error.
+
+date:10-14-2003
+Introduction to DOM :
+our brower save the document of html file where
+inside ducument Html is there
+inside html various child(elements) are there which are ancestor and siblings for other tag.
+- we can manipulate the objects of the document 
+- every object have property(characterstics) and method(what object can do)
+
