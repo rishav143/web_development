@@ -35,3 +35,25 @@ document.getElementById("btn").style.color = "blue";
 manipulating and changing the style of element by javascipt :
 document.querySelector("#btn").style.backgroundColor = "yellow";
 //we can manipulate the javascipt element same as CSS using javascipt version.
+
+date : 10-15-2023
+The sepration of the concern_structure vs style vs behaviour :
+document.querySelector("button").classList.add("huge");
+//query selector will choose button object and classList helps to add class huge to our document
+document.querySelector("button").classList.toggle("huge");
+//it will invert if present then remove vice versa
+document.querySelector("button").classList.remove("huge"); //remove that class
+
+manipulating html element :
+document.querySelector("button").textContent;
+//it means it will find only the text Content inside the that button element
+document.querySelector("h1").innerHTML; 
+//it will show <strong>Hello</strong> or we can add innerHtml by assign the inner html to it.
+
+manipulating the attribute :
+document.querySelector("a").attributes;
+//it will get all the attributes of the anchor tag 
+document.querySelector("a").getAttribute("href");
+//it will get link of the website
+document.querySelector("a").setAttribute("href", "https://www.bing.com/");
+//it will set the attribute of the tag
