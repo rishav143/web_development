@@ -25,3 +25,19 @@ today we have learnt how to use higher order function over over applying add mul
 debugger;
 calculator(3,4,multiply);
 it helps to analyse step by step what is actually happening in our code using crome developer tool.
+
+How to play sound on website :
+// var audio = new Audio("sounds/tom-1.mp3");
+// audio.play();
+
+deeper understanding of javascipt object :
+function BellBoy(name, age, spokenLanguage) {
+    this.name = name;
+    this.age = age;
+    this.spokenLanguage = spokenLanguage;
+}
+var bellBoy1 = new BellBoy("ravit", 20, ["french", "english"])
+console.log(bellBoy1.spokenLanguage);
+//here we define our function to create object which have properties. from this function we can create as many objects easily.
+//function constructor must start with capital letter.
+
