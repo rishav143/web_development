@@ -1,0 +1,27 @@
+date : 10-26-2023
+Higher Order function and passing function as argument :
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+function multiply(num1, num2) {
+    return num1 * num2;
+}
+
+function subtract(num1, num2) {
+    return num1 - num2;
+}
+
+function divide(num1, num2) {
+    return num1 / num2;
+}
+
+function calculator(num1, num2, operator) { // this is called higher order function 
+    return operator(num1, num2);
+}
+
+calculator(2,3,divide); // 0.6666
+today we have learnt how to use higher order function over over applying add multipy seprately.
+debugger;
+calculator(3,4,multiply);
+it helps to analyse step by step what is actually happening in our code using crome developer tool.
