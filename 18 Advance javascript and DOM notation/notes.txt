@@ -41,3 +41,27 @@ console.log(bellBoy1.spokenLanguage);
 //here we define our function to create object which have properties. from this function we can create as many objects easily.
 //function constructor must start with capital letter.
 
+object methods and dot notation :
+var BellBoy = {
+    name : "timmy";
+    age : 20;
+    spokenLanguage : "english";
+    moveSuitcase : function() {
+        alert("moving suitcase);
+        pickUpSuitcase();
+    }
+}
+BellBoy.name
+console.log(bellBoy1.spokenLanguage);
+// it show how we are able to create function inside objects
+var housekeeper(yearOfExperience, name) {
+    this.yearOfExperience = yearOfExperience;
+    this.name = name;
+    this.cleaning = function () {
+        alert("cleaning in progress");
+    }
+}
+var h1 = new housekeeper(20, "hellen");
+h1.name;
+//calling function inside constructor function
+
