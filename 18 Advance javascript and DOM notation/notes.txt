@@ -93,3 +93,17 @@ addAnotherEventListner("keypress", function(event) {
 //addAnotherEventListner is a higher order function and callBack is callback function
 //callBack(eventThatHappened) is called when typeOfEvent matches with event type 
 
+Adding Animation to the website :
+function buttonAnimation(currentKey) {
+
+  var activeButton = document.querySelector("." + currentKey);
+
+  activeButton.classList.add("pressed");
+
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
+
+}
+//we are passing currentKey as character in the function, for animation we use setTimeout(para1, para2) taking 2 parameter 
+//we have passed function to trigger after wait period which has passed in 2nd parameter
