@@ -65,3 +65,10 @@ var h1 = new housekeeper(20, "hellen");
 h1.name;
 //calling function inside constructor function
 
+keyboard event listner :
+document.addEventListener("keydown", function(event) {
+    console.log(event);
+});
+//"keydown" is the event listner when we press key and we pass event in the function that will show the revelent 
+detail about the event in the console
+event.key - here key the property of the event which contain the char that is pressed
