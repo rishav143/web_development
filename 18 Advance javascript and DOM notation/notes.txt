@@ -72,3 +72,24 @@ document.addEventListener("keydown", function(event) {
 //"keydown" is the event listner when we press key and we pass event in the function that will show the revelent 
 detail about the event in the console
 event.key - here key the property of the event which contain the char that is pressed
+
+
+Understanding callBack and how to respond to event :
+function addAnotherEventListner(typeOfEvent, callBack) {
+
+    var eventThatHappened = {
+        eventType : "keypress",
+        key : "p",
+        duration : 2
+    }
+
+    if(typeOfEvent === eventThatHappened.eventType) {
+        callBack(eventThatHappened);
+    }
+}
+addAnotherEventListner("keypress", function(event) {
+    console.log(event);
+});
+//addAnotherEventListner is a higher order function and callBack is callback function
+//callBack(eventThatHappened) is called when typeOfEvent matches with event type 
+
