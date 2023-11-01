@@ -25,3 +25,10 @@ $("h1").removeClass("margin-50"); // this is how we remove the margin-50 class
 Manipulating text with jQuery :
 $("h1").text("Bye"); // text keyword help us to change the text of the h1 elemment
 $("button").html("<em>click me here</em>"); // this will help us to change the inner html of the button elemment.
+
+Manipulating attributes with jQuery :
+$("h1").attr("class");
+output  : 'big-title margin'
+// attr keyword is used to get and change attributes 
+eg2 : $("a").attr("href", "https://www.yahoo.com/");
+// jQuery fetch 'a' anchor tag and the function attr take href as its input and change it from google.com to yahoo.com
