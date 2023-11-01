@@ -32,3 +32,10 @@ output  : 'big-title margin'
 // attr keyword is used to get and change attributes 
 eg2 : $("a").attr("href", "https://www.yahoo.com/");
 // jQuery fetch 'a' anchor tag and the function attr take href as its input and change it from google.com to yahoo.com
+
+Adding event listner with jQuery :
+$("h1").css("color", "yellow");
+$(document).keypress( function(event) {
+    $("h1").text(event.key);
+});
+//if we detect keypress event then callback function alter the behaviour of h1.
