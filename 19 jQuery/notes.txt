@@ -2,7 +2,7 @@ date : 10-31-2023
 How to incorporate jQuery to website :
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="index.js"></script>
-//we should include jquery cdn above the javascript. if we include these two inside our head tag
+//we should include jquery library above the javascript. if we include these two inside our head tag
 then we have to make sure that our document is ready before this library is triggered using the code below.
 $(document).ready(function() {
     $("h1").css("color", "red");
@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 How minification work to reduce files :
 browser load minified version of library in client machine to speed up loading of these files. These minified version
-does not contain any comments, blank spaces and blank lines. By doing this we able to reduce the size of file.
+does not contain any comments, blank spaces and blank lines. By doing this we are able to reduce the size of file.
 
 Selecting the elemments with jQuery :
 document.querySelector("h1) -> $("h1") // this will search h1 elemment
@@ -21,3 +21,7 @@ $("h1").css("color", "red"); // in this way we can add css property
 $("h1").addClass("big-title"); // this will add class big-title
 $("h1").addClass("big-title margin-50"); // this is how we can add more than one classes
 $("h1").removeClass("margin-50"); // this is how we remove the margin-50 class
+
+Manipulating text with jQuery :
+$("h1").text("Bye"); // text keyword help us to change the text of the h1 elemment
+$("button").html("<em>click me here</em>"); // this will help us to change the inner html of the button elemment.
