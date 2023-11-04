@@ -39,3 +39,10 @@ $(document).keypress( function(event) {
     $("h1").text(event.key);
 });
 //if we detect keypress event then callback function alter the behaviour of h1.
+
+Adding and removing elemment with jquery :
+$("h1").before("<button>New</button>"); // this code add the button elemment before the opening of h1 elemment
+$("h1").after("<button>New</button>");  // this code add the button elemment after the end of h1 elemment
+$("h1").prepend("hey, ");               // this code add this text/elemment just after the opening of h1 tag
+$("h1").append("goodbye");              // this code add this text/elemment after the ending tag of h1
+
