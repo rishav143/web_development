@@ -46,3 +46,50 @@ $("h1").after("<button>New</button>");  // this code add the button elemment aft
 $("h1").prepend("hey, ");               // this code add this text/elemment just after the opening of h1 tag
 $("h1").append("goodbye");              // this code add this text/elemment after the ending tag of h1
 
+
+website animation with jQuery :
+hide :
+$("button").click(function () {
+    $("h1").hide();
+});
+-----
+show :
+$("h1").show(); // this code will show the hidden element
+-----
+toggle :
+$("button").click(function () {
+    $("h1").toggle();
+});
+-----
+fadeToggle :
+$("button").click(function () {
+   $("h1").fadeToggle();
+});
+// this code will first fade in and fade out the button after clicking. fade means disappearing slowly
+-----
+Slide up :
+$("button").click(function () {
+   $("h1").slideUp();
+});
+//hide up like a shutter 
+-----
+Slide down :
+$("h1").slideDown();
+//show hidden element like shutter down
+----
+slide Toggle :
+$("button").click(function () {
+   $("h1").slideToggle();
+});
+// h1 slide up and down by toggling the button
+----
+animate :
+$("button").click(function () {
+   $("h1").animate({opacity: 0.5});
+});
+//decrease the opacity half. animate method take css attributes which accepts numbers only like margin.
+----
+chaining together :
+$("button").click(function () {
+   $("h1").slideUp().slideDown().animate({margin : "50px"});
+});
