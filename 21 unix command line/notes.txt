@@ -1,0 +1,14 @@
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files (my_projects)
+$ ls
+ dsa_problems/   java_complete/   machine_learning_data_science/  'PEP data structure'/   web_development/
+ls is used to list all directory 
+
+'cd directory' is used to change the directory.
+
+'cd ~' means clear
+
+'cd /OneDrive/Desktop/gitub_files/dsa_problems' change the directory directly without need to going in each folder
+
+'cd ..' change one level down
+
+hold ctrl a and move mouse if you want to edit in cli.
