@@ -12,3 +12,15 @@ ls is used to list all directory
 'cd ..' change one level down
 
 hold ctrl a and move mouse if you want to edit in cli.
+
+$ mkdir rishav // making new directly
+
+$ touch notes.txt // making new files
+
+$ start notes.txt // open files in GUI
+
+$ code notes.txt // open file in VS code
+
+$ rm * // remove all files in current folder
+
+$ rm -r rishav // remove directory
