@@ -1,0 +1,6 @@
+Full stack  = front end + back end
+
+front end = HTML - CSS - JAVASCRIPT (some popular frameworks like react js)
+
+back end = SERVER(wating for the requests) + APPLICATION(all the logic) + DATABASE(data stored on the storage)
+PYTHON - JAVA - C# - RUBY(some poular frame like node.js)
