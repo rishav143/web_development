@@ -1,0 +1,35 @@
+node REPL(read evaluate print loop)
+read line by line execution of code.
+.help command is for help.
+we can write expression and for exit ctrl+c two time or '.exit'.
+
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
+$ node
+Welcome to Node.js v20.11.0.
+Type ".help" for more information.
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+> .help
+.break    Sometimes you get stuck, this gets you out
+.clear    Alias for .break
+.editor   Enter editor mode
+.exit     Exit the REPL
+.help     Print this help message
+.load     Load JS from a file into the REPL session
+.save     Save all evaluated commands in this REPL session to a file
+
+Press Ctrl+C to abort current expression, Ctrl+D to exit the REPL
+> let a = 13
+undefined
+> a+13
+26
+> .exit
+
+we can use 'node filename' for running file with node runtime environment.
+
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files (my_projects)       
+$ cd 'c:/Users/ASUS/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node'
+
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
+$ node index.js
+hello world
