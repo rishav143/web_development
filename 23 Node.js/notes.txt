@@ -36,6 +36,7 @@ hello world
 
 
 dated: 1/17/2023
+---
 Using Node
 Node Js helps to librate the javascript to work outside the browser.
 
@@ -49,4 +50,17 @@ The file has been saved ! //for writing txt file
 ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
 $ node index.js
 Hello from Rishav! // reading from text file
+
+---
+NPM Package Manager and installing external Package
+the first step is to initialize the NPM package using 'npn init' keyword and it will create a configuration file for
+us. Then we can go npm website and can install external packages. these are like a toolkit in our project to reduce the
+workload.
+
+In our config or json file we can add 'type : module' rather a common js. It helps to use the import keyword rather typing
+require for using the package. This is the way to follow ECMA script.
+
+dated:
+
+
 
