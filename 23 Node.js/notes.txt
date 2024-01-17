@@ -33,3 +33,20 @@ $ cd 'c:/Users/ASUS/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node
 ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
 $ node index.js
 hello world
+
+
+dated: 1/17/2023
+Using Node
+Node Js helps to librate the javascript to work outside the browser.
+
+first we import the require module to our js file and then we have called readFile and writeFile to 
+manipute our file system porvided by node js.
+
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
+$ node index.js
+The file has been saved ! //for writing txt file
+
+ASUS@DESKTOP-L2DOHAO MINGW64 ~/OneDrive/Desktop/gitub_files/web_development/23.1 Using Node (main)
+$ node index.js
+Hello from Rishav! // reading from text file
+
