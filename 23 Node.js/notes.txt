@@ -53,14 +53,14 @@ Hello from Rishav! // reading from text file
 
 ---
 NPM Package Manager and installing external Package
-the first step is to initialize the NPM package using 'npn init' keyword and it will create a configuration file for
+the first step is to initialize the NPM package using 'npm init' keyword and it will create a configuration file for
 us. Then we can go npm website and can install external packages. these are like a toolkit in our project to reduce the
 workload.
 
 In our config or json file we can add 'type : module' rather a common js. It helps to use the import keyword rather typing
-require for using the package. This is the way to follow ECMA script.
+'require' for using the package. This is the way to follow ECMA script.
 
-dated:
+dated: 1/23/2024
 
 
 
