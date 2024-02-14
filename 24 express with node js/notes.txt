@@ -1,0 +1,12 @@
+date : 1/25/2024
+creating our first server with express js
+we can install express from "npm i express" after npm init.
+import express from "express";
+const app = express();
+const port = 3000;
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+})
+here we import module of express from library. we have various port in our computer listing for event like printer
+keynote etc, terminal command is ""
